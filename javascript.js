@@ -22,3 +22,40 @@ function horario(fecha) {
     }
 }
 horario(fecha);
+
+//var caja2 = document.getElementsByClassName('cajagal2');
+//$(document).ready(function () {
+var x = window.matchMedia("(max-width: 950px)");
+
+function myFunction(x) {
+    if (x.matches) { // If media query matches
+        $(".cajagal2").hide();
+    } else {
+        $(".cajagal2").show();
+    }
+}
+myFunction(x);
+x.addListener(myFunction);
+//$(".cajagal2").hide();
+
+var num = 0;
+
+$(".vermasmenos").on("click", function () {
+
+    //    $(".cajagal2").style.height = "1000px";
+    $(".cajagal2").slideToggle();
+
+    if (num == 0) {
+        $(".imagen").attr("src","images/Botonmenos.png");
+        num =1;
+
+    } else {
+        $(".imagen").attr("src","images/Botonmas.png");
+        num =0;
+    }
+
+
+
+})
+
+//})

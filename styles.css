@@ -686,6 +686,21 @@ footer .creditos div {
     .caja-galeria .gal p {
         top: 5px;
     }
+    
+    .vermasmenos {
+    display: block !important;
+    
+    }
+    .vermasmenos img{
+        width: 100%;
+    }
+/*
+    .cajagal2{
+        visibility: collapse;
+        height: 0px;
+    display:none;
+    }
+*/
     .mitad-menu .menu-gris {
         display: none;
     }
@@ -708,6 +723,11 @@ footer .creditos div {
         margin: 20px auto;
         width: 60%;
         height: calc(35vw);
+    }
+    .botoncarro{
+        top: 200px;
+        width: 75px !important;
+        margin-left: 0 !important;
     }
     .mitad-nosotros {
         margin: 0 auto;
@@ -793,6 +813,8 @@ footer .creditos div {
         background: url("images/restaurante-principal.jpg") center center no-repeat;
         background-size: cover;
     }
+    
+
 }
 
 /*****FIN - RESPONSIVE******/
@@ -891,6 +913,16 @@ footer .creditos div {
 .imagen-plato-8 {
     background: url("menu/8.jpg") center center no-repeat;
 }
+.botoncarro{
+    
+    position:fixed;
+    width: 90px;
+    top: 80%;
+    margin-left: 10%;
+}
+.botoncarro img{
+    width: 100%;
+}
 
 .imagen-plato-1,
 .imagen-plato-2,
@@ -912,6 +944,24 @@ footer .creditos div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+.vermasmenos {
+    display: none;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.cajagal1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.cajagal2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gal-1 {
