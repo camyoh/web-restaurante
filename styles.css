@@ -186,18 +186,18 @@ a {
     */
     /*    position: relative;*/
     /*    display: flex;*/
-    position: relative;
     overflow: hidden;
     /*    min-height: 470px;*/
-    height: 100vh;
+    position: relative;
+    width: 100%;
+    height: auto;
     display: flex;
-    align-items: center;
+/*    align-items: center;*/
     justify-content: center;
 }
 
 #video-home {
     display: block;
-    position: absolute;
     object-fit: cover;
     height: 100%;
     width: 100%;
@@ -229,12 +229,15 @@ a {
 }
 
 .logo {
-    z-index: 1;
+    position: absolute;
+    top: 100px;
     width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin:0  auto;
+/*
     display: flex;
     flex-wrap: wrap;
+*/
     /*    width: 300px;*/
     /*
     width: 300px;
@@ -250,7 +253,17 @@ a {
     /*    max-width: 259px;*/
     margin: 0 auto;
     /* vertical-align: top; */
-    height: 50%;
+    height: auto;
+}
+
+.detraslogo{
+    top: 100px;
+    position: absolute;
+
+    width: 40%;
+}
+.detraslogo img{
+    width: 100%;
 }
 
 .delDia {
