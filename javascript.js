@@ -57,9 +57,6 @@ function horario(fecha) {
     }
     tituloDia[0].textContent = "Hoy es " + dia + " de ";
     console.log(dia);
-
-
-
 }
 horario(fecha);
 
