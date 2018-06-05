@@ -60,25 +60,15 @@ function horario(fecha) {
 }
 horario(fecha);
 
-
-
-
-
 //var caja2 = document.getElementsByClassName('cajagal2');
 //$(document).ready(function () {
 
 $(window).scroll(function () {
-
     var wScroll = $(this).scrollTop();
-
     $('.logo').css('transform', 'translate(0px,' + wScroll / 2 + '%)');
     $('.detraslogo').css('transform', 'translate(0px,' + wScroll / 2.5 + '%)');
-
     console.log("hi");
 });
-
-
-
 var x = window.matchMedia("(max-width: 950px)");
 
 function myFunction(x) {
@@ -91,27 +81,16 @@ function myFunction(x) {
 myFunction(x);
 //x.addListener(myFunction);
 //$(".cajagal2").hide();
-
 var num = 0;
-
 $(".vermasmenos").on("click", function () {
-
     //    $(".cajagal2").style.height = "1000px";
     $(".cajagal2").slideToggle();
-
     if (num == 0) {
         $(".imagen").attr("src", "images/Botonmenos.png");
         num = 1;
-
     } else {
         $(".imagen").attr("src", "images/Botonmas.png");
         num = 0;
     }
-
-
-
 })
-
-
-
 //})
