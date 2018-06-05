@@ -7,10 +7,27 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Montserrat:300,400,700|Pathway+Gothic+One" rel="stylesheet">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body>
+    <?php
+        function test_input($data) {
+            $data = trim($data);
+            $data = stripslashes($data);
+            $data = htmlspecialchars($data);
+            return $data;
+        }
+        $conexion = mysqli_connect('localhost', 'root', '');
+        mysqli_select_db($conexion, 'test');
+        $consulta = "SELECT * FROM menu";
+        $datos = $conexion->query($consulta);
+    ?>
+    <script>
+        var fecha2 = new Date();
+        var dia2 = fecha2.getDay();
+    </script>
     <header>
         <div class="contenedor-header">
             <div class="columna">
@@ -53,6 +70,15 @@
                 </div>
                 <div class="textoPlato">
                     <h2 class="tituloDia">PLATO DEL DÍA</h2>
+                    <p>
+                        <?php  
+                        while($fila=$datos->fetch_assoc()){
+                            if ($fila['id']==13) {
+                                echo $fila['nombre'];
+                            }
+                        } 
+                        ?>
+                    </p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt a quisquam distinctio, error iure porro nesciunt totam?</p>
                     <hr>
                     <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur a obcaecati maiores libero ab minima nihil blanditiis!</b></p>
