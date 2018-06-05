@@ -56,7 +56,6 @@ function horario(fecha) {
             break;
     }
     tituloDia[0].textContent = "Hoy es " + dia + " de ";
-    console.log(dia);
 }
 horario(fecha);
 
@@ -92,5 +91,5 @@ $(".vermasmenos").on("click", function () {
         $(".imagen").attr("src", "images/Botonmas.png");
         num = 0;
     }
-})
+});
 //})
