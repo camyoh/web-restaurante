@@ -194,7 +194,9 @@
             </div>
         </div>
         <div class="botoncarro" >
-       <img src="images/Botoncarrito.png" alt="botoncompras">
+        <a href="">
+            <img src="images/Botoncarrito.png" alt="botoncompras">
+        </a>
        </div>
     </section>
     <footer>

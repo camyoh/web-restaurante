@@ -92,7 +92,7 @@
       <h2>Esta sección es del administrador del restaurante</h2>
 
       <a href="login.php">Iniciar Sesión</a>
-      <!-- <a href="signup.php">SignUp</a> -->
+      <a href="signup.php">SignUp</a>
     <?php endif; ?>
   </body>
 </html>
