@@ -194,7 +194,7 @@
             </div>
         </div>
         <div class="botoncarro" >
-        <a href="">
+        <a href="carrito.php">
             <img src="images/Botoncarrito.png" alt="botoncompras">
         </a>
        </div>
