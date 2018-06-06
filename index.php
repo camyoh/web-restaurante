@@ -29,6 +29,7 @@
         var dia2 = fecha2.getDay();
     </script>
     <header>
+         <h1>Restaurante las Acacias</h1>
         <div class="contenedor-header">
             <div class="columna">
                 <a class="logomini" href="index.html">Las Acacias</a>
