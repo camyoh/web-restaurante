@@ -976,6 +976,7 @@ footer .creditos div {
     right: 5px;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 24px;
+    text-align: center;
     
 }
 .form1 label {
@@ -1031,3 +1032,306 @@ footer .creditos div {
 .form1 input[type=button]:hover{
 background: #222222;
 }
+
+
+
+@media screen and (max-width:950px) {
+    .columna {
+        overflow: visible;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .logomini {
+        max-width: 70px;
+        min-height: 70px;
+    }
+    header {
+        height: 200px;
+        position: fixed;
+    }
+    header .abierto-o-cerrado {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-menu {
+        /*        position: absolute;*/
+        top: 0px;
+    }
+    .header-nosotros {
+        top: 0px;
+    }
+    .estado {
+        padding-right: 0;
+        border-right: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .tiempo-falta {
+        text-align: center;
+    }
+    .navegador {
+        /*        display: block;*/
+        margin-left: 0;
+        margin-top: 110px;
+        padding: 10px 0;
+        width: 90%;
+    }
+    .navegador #menu-principal {
+        /*        display: flex;*/
+        flex-direction: row;
+    }
+    #menu-principal li {
+        height: 48px;
+        padding: 12px;
+        box-sizing: border-box;
+        background: url("images/fondo%20menu.svg") center center no-repeat;
+        background-size: cover;
+        margin: 5px 0;
+    }
+    #menu-principal li a {
+        color: #fff;
+    }
+    .logo {
+        margin-top: 150px;
+    }
+    #video-home {
+        display: none;
+    }
+    .mas-pedidos-top {
+        margin-top: 200px !important;
+    }
+    .fondo {
+        background: url("images/fondo.jpg") center center no-repeat;
+        height: 500px;
+        background-size: 940px;
+    }
+    .delDia {
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .imgDelDia {
+        width: 90%;
+        height: 45vw;
+        /*        padding: 60px 0;*/
+        margin: 30px 0;
+    }
+    .textoPlato h2 {
+        margin: 0 0 15px 0;
+    }
+    .textoPlato p {
+        padding: 15px 0;
+    }
+    .textoPlato {
+        width: 100%;
+        padding: 0 5%;
+        box-sizing: border-box;
+    }
+    .tresCajas {
+        margin: 50px auto;
+        flex-direction: column;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .menu,
+    .nosotros,
+    .locales {
+        margin: 15px auto;
+        padding: 5% 15%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .textofooter {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        background-color: rgba(10, 10, 10, 0.35);
+    }
+    .textofooter hr {
+        display: none;
+    }
+    footer {
+        display: flex;
+        background-size: cover;
+        height: 720px;
+    }
+    .cajafooter1 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+    }
+    .h16h {
+        align-items: center;
+        flex-direction: column;
+    }
+    .h16h img {
+        min-width: 120px;
+    }
+    .mapabajo {
+        padding: 0;
+        flex-direction: column;
+        color: white;
+    }
+    .mapabajo .map {
+        background-color: rgb(35, 35, 35);
+        margin: 10px auto;
+        padding: 5px 0;
+        width: 80%;
+    }
+    .tarjetas {
+        color: white;
+        padding: 5px 10px;
+    }
+    .tarjetas ul {
+        list-style: none;
+    }
+    .redes {
+        padding: 0;
+    }
+    .social {
+        display: flex;
+        flex-direction: column;
+    }
+    .social a {
+        margin: 5px 0;
+    }
+    .creditos {
+        margin: 0px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .creditomitad {
+        border: none;
+    }
+    .caja-platos {
+        /*                padding-top: 150px;*/
+        flex-direction: column;
+        margin: 100px auto;
+    }
+    .caja-galeria .gal {
+        filter: blur(0px);
+    }
+    .caja-galeria .gal p {
+        top: 5px;
+    }
+    
+    .vermasmenos {
+    display: block !important;
+    
+    }
+    .vermasmenos img{
+        width: 100%;
+    }
+/*
+    .cajagal2{
+        visibility: collapse;
+        height: 0px;
+    display:none;
+    }
+*/
+    .mitad-menu .menu-gris {
+        display: none;
+    }
+    .imagen-plato-1,
+    .imagen-plato-2,
+    .imagen-plato-3,
+    .imagen-plato-4,
+    .imagen-plato-5,
+    .imagen-plato-6,
+    .imagen-plato-7,
+    .imagen-plato-8 {
+        width: 100%;
+        height: 40vw;
+    }
+    .plato{
+        width: 100%;
+        flex-direction: column;
+    }
+    .plato h2{
+        width: 100%;
+    }
+    .plato p{
+        padding: 0 !important; 
+        width: 100%;
+    }
+    .dosimagenes {
+        flex-direction: column;
+        width: 100%;
+    }
+    .dosimagenes .imgizquierda,
+    .dosimagenes .imgderecha {
+        margin: 20px auto;
+        width: 60%;
+        height: calc(35vw);
+    }
+    .botoncarro{
+        top: 200px;
+        width: 75px !important;
+        margin-left: 0 !important;
+    }
+    .mitad-nosotros {
+        margin: 0 auto;
+        display: flex;
+        height: 40vh !important;
+        background-position: right !important;
+        background-size: auto;
+        height: auto;
+        width: 90% !important;
+    }
+    .contenedor-nosotros-intro {
+        display: none;
+    }
+    .contenedor-intro-responsive {
+        display: flex !important;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-top: 250px;
+        width: 90%;
+    }
+    .cont-nos-res {
+        width: 100%;
+    }
+    .menu-gris {
+        margin-top: 0 !important;
+        padding: 0 0 !important;
+        width: 100%;
+        height: auto;
+    }
+    .menu-gris p {
+        text-align: center;
+    }
+    .intro-nosotros p {
+        color: black !important;
+        width: 100% !important;
+    }
+    .mitad2 {
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+        width: 90%;
+    }
+    .contenedor-historia blockquote::before {
+        display: none !important;
+    }
+    .contenedor-nosotros2 h3::before {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    
+
+}
+
+</style>
