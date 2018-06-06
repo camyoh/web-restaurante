@@ -1,0 +1,1034 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/fondo-body.png");
+}
+
+.body-nosotros {
+    background: #fff;
+}
+
+.body-locales {
+    background: url("images/fondomap.png") #1d1e22;
+}
+
+header {
+    height: 72px;
+    background: #fff;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    justify-content: center;*/
+}
+
+header .contenedor-header {
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.tresCajas p {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0 25px;
+    letter-spacing: 0.5px;
+}
+
+header .abierto-o-cerrado {
+    width: auto;
+    height: 1em;
+    display: flex;
+    font-family: "Merriweather", serif;
+    font-size: 1em;
+}
+
+.cubo {
+    height: 800px;
+    background: #f05a5a;
+}
+
+.estado {
+    padding-right: 12px;
+    border-right: 1px solid #cccccc;
+    margin-right: 13px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 3px;
+}
+
+.tiempo-falta {
+    font-family: "Monserrat", sans-serif;
+    color: rgb(221, 182, 138);
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    box-sizing: inherit;
+    display: block;
+    text-align: left;
+}
+
+.navegador {
+    position: absolute;
+    margin-left: 120px;
+    width: auto;
+    font-family: "Merriweather", sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #494949;
+    letter-spacing: 0px;
+    line-height: 1.4;
+}
+
+#menu-principal {
+    display: flex;
+    list-style: none;
+    font-family: inherit;
+}
+
+#menu-principal li {
+    margin: 0 15px 0 0;
+}
+
+header nav a {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    opacity: 1;
+}
+
+header nav a:hover {
+    color: rgba(51, 51, 51, 0.5);
+}
+
+header nav li {
+    width: 100%;
+}
+
+header {
+    background: #fff;
+}
+
+.columna {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.logomini {
+    background: url("images/NL.png") center center no-repeat;
+    background-size: contain;
+    min-width: 108px;
+    min-height: 105px;
+    display: block;
+    color: transparent;
+    text-decoration: none;
+    left: 100px;
+}
+
+.contenedor {
+    margin: 80px auto;
+    max-width: 1200px;
+}
+
+.contenedor-nosotros {
+    margin: 80px auto;
+    max-width: 1200px;
+    background: #fff;
+}
+
+.menuH {
+    background: #fff;
+    max-width: 1200px;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mitad {
+    overflow: hidden;
+}
+
+.mitad .entrada {
+    width: 100%;
+}
+
+.fondo {
+    /*
+    background: url("images/fondo.jpg") center center no-repeat;
+    background-size: 100%;
+    */
+    /*    position: relative;*/
+    /*    display: flex;*/
+    overflow: hidden;
+    /*    min-height: 470px;*/
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+/*    align-items: center;*/
+    justify-content: center;
+}
+
+#video-home {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    /*    z-index: 1;*/
+}
+
+.logo img {
+    /*    margin: auto;*/
+    /*    width: 50%;*/
+    z-index: 10;
+}
+
+.posMiniLogo {
+    max-width: 1200px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    top: -5%;
+    left: 10%;
+}
+
+.minilogo {
+    width: 100px;
+}
+
+.minilogo img {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 100px;
+    width: 90%;
+    max-width: 1200px;
+    margin:0  auto;
+/*
+    display: flex;
+    flex-wrap: wrap;
+*/
+    /*    width: 300px;*/
+    /*
+    width: 300px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    */
+}
+
+.logo img {
+    display: block;
+    width: 35%;
+    /*    max-width: 259px;*/
+    margin: 0 auto;
+    /* vertical-align: top; */
+    height: auto;
+}
+
+.detraslogo{
+    top: 100px;
+    position: absolute;
+
+    width: 40%;
+}
+.detraslogo img{
+    width: 100%;
+}
+
+.delDia {
+    max-width: 1200px;
+    height: 300px;
+    /*    height: 200px;*/
+    margin: 0 center;
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background: #fff;
+}
+
+.textoPlato h2 {
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.textoPlato p {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.imgDelDia {
+    /*
+    background: url("images/delDia.jpg") center center no-repeat;
+    background-size: cover;
+    */
+    background: url("images/delDia.jpg") center center no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+}
+
+/*
+.delDia img {
+    width: 100%;
+}
+*/
+
+.textoPlato {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 4%;
+}
+
+.tresCajas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tresCajas a {
+    color: rgb(221, 182, 138);
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.tresCajas a:hover {
+    color: rgb(221, 154, 78);
+}
+
+.menu {
+    background: url("images/matica.jpg") center center no-repeat #fff;
+    background-size: auto 80%;
+}
+
+.nosotros {
+    background: url("images/saco.jpg") center center no-repeat #fff;
+    background-size: auto 80%;
+}
+
+.locales {
+    background: url("images/pimientos.jpg") center center no-repeat #fff;
+    background-size: auto 80%;
+}
+
+.menu,
+.nosotros,
+.locales {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 400px;
+    padding: 1%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.menu img,
+.nosotros img,
+.locales img {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.menu p,
+.nosotros p,
+.locales p {
+    margin: 10px 0;
+}
+
+.menu a {
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    background: url("images/footer3nuevo.jpg") center center no-repeat;
+    background-size: 100%;
+    height: 400px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*        align-content: space-between;*/
+    /*    justify-content: space-between;*/
+}
+
+footer .imgfooter {
+    width: 100%;
+}
+
+.cajafooter1 {
+    width: 500px;
+    /*    height: 100%;*/
+}
+
+.h16h img {
+    width: 20%;
+    height: 20%;
+}
+
+.h16h {
+    display: flex;
+    /*    flex-direction: row;*/
+    padding: 10px 0;
+    /*    border-bottom: 2px solid rgba(255, 255, 255, 0.5);*/
+}
+
+.h16h h4 {
+    /*    margin-top: auto;*/
+    /*    margin-bottom: auto;*/
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    margin: auto 0;
+    color: rgb(221, 182, 138);
+    padding-left: 20px;
+}
+
+.almcom {
+    padding: 10px 0;
+    /*    border-bottom: 2px solid rgba(255, 255, 255, 0.5);*/
+}
+
+.almcom p {
+    padding: 5px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.mapabajo {
+    display: flex;
+    padding: 10px 0;
+    /*    border-bottom: 2px solid rgba(255, 255, 255, 0.5);*/
+    font-family: "Merriweather", sans-serif;
+    font-weight: 300;
+    color: #ADADAD;
+}
+
+.mapabajo .map {
+    /*    width: 100px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*    align-content: center;*/
+    text-align: center;
+    margin-left: 70px;
+    background: url("images/fondomap.png")
+}
+
+.mapabajo .map a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 40px;
+}
+
+.tarjetas {
+    padding: 10px 0;
+    padding-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #ADADAD;
+}
+
+.redes {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.redes a {
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: #ADADAD;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    margin: 0 10px;
+}
+
+.creditos {
+    display: flex;
+    justify-content: center;
+}
+
+.textofooter {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+footer .creditos div {
+    margin-top: 10px;
+    padding: 3px 5px;
+    color: #ADADAD;
+    font-family: "Montserrat";
+    font-size: 0.8em;
+}
+
+.creditomitad {
+    border-left: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.mitad-menu {
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    justify-content: center;*/
+    /*    align-content: center;*/
+    text-align: center;
+}
+
+.menu-gris {
+    margin-top: 100px;
+    display: inline-block;
+    padding: 6px 150px;
+    background: url("images/fondo%20menu.svg") center center no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 1.5em;
+}
+
+.mas-pedidos {
+    margin: 10px 0;
+    color: rgb(221, 182, 138);
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+.caja-platos {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.plato {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plato h2 {
+    font-family: "Pathway Gothic One";
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 5px 0;
+    width: 30%;
+}
+
+.plato p {
+    margin: 10px 0;
+    padding: 0 35px;
+    font-family: "Merriweather", sans-serif;
+    font-size: 0.9em;
+    line-height: 2em;
+    width: 40%;
+}
+
+.imagen-plato-1 {
+    background: url("menu/1.jpg") center center no-repeat;
+}
+
+.imagen-plato-2 {
+    background: url("menu/2.jpg") center center no-repeat;
+}
+
+.imagen-plato-3 {
+    background: url("menu/3.jpg") center center no-repeat;
+}
+
+.imagen-plato-4 {
+    background: url("menu/4.jpg") center center no-repeat;
+}
+
+.imagen-plato-5 {
+    background: url("menu/5.jpg") center center no-repeat;
+}
+
+.imagen-plato-6 {
+    background: url("menu/6.jpg") center center no-repeat;
+}
+
+.imagen-plato-7 {
+    background: url("menu/7.jpg") center center no-repeat;
+}
+
+.imagen-plato-8 {
+    background: url("menu/8.jpg") center center no-repeat;
+}
+.botoncarro{
+    
+    position:fixed;
+    width: 90px;
+    top: 80%;
+    margin-left: 10%;
+}
+.botoncarro img{
+    width: 100%;
+}
+
+.imagen-plato-1,
+.imagen-plato-2,
+.imagen-plato-3,
+.imagen-plato-4,
+.imagen-plato-5,
+.imagen-plato-6,
+.imagen-plato-7,
+.imagen-plato-8 {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    background-size: cover;
+}
+
+.caja-galeria {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.vermasmenos {
+    display: none;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.cajagal1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.cajagal2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gal-1 {
+    background: url("galeria/1.jpg") center center no-repeat;
+}
+
+.gal-2 {
+    background: url("galeria/2.jpg") center center no-repeat;
+}
+
+.gal-3 {
+    background: url("galeria/3.jpg") center center no-repeat;
+}
+
+.gal-4 {
+    background: url("galeria/4.jpg") center center no-repeat;
+}
+
+.gal-5 {
+    background: url("galeria/5.jpg") center center no-repeat;
+}
+
+.gal-6 {
+    background: url("galeria/6.jpg") center center no-repeat;
+}
+
+.gal-7 {
+    background: url("galeria/7.jpg") center center no-repeat;
+}
+
+.gal-8 {
+    background: url("galeria/8.jpg") center center no-repeat;
+}
+
+.gal-9 {
+    background: url("galeria/9.jpg") center center no-repeat;
+}
+
+.gal-10 {
+    background: url("galeria/10.jpg") center center no-repeat;
+}
+
+.gal-11 {
+    background: url("galeria/11.jpg") center center no-repeat;
+}
+
+.gal-12 {
+    background: url("galeria/12.jpg") center center no-repeat;
+}
+
+.gal-13 {
+    background: url("galeria/13.jpg") center center no-repeat;
+}
+
+.gal-14 {
+    background: url("galeria/14.jpg") center center no-repeat;
+}
+
+.gal-15 {
+    background: url("galeria/15.jpg") center center no-repeat;
+}
+
+.gal-16 {
+    background: url("galeria/16.jpg") center center no-repeat;
+}
+
+.gal-17 {
+    background: url("galeria/17.jpg") center center no-repeat;
+}
+
+.gal-18 {
+    background: url("galeria/18.jpg") center center no-repeat;
+}
+
+.gal-19 {
+    background: url("galeria/19.jpg") center center no-repeat;
+}
+
+.gal-20 {
+    background: url("galeria/20.jpg") center center no-repeat;
+}
+
+.gal {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    margin: 10px;
+    filter: blur(2px);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.gal:hover {
+    filter: blur(0px);
+}
+
+.gal p {
+    /*    width: ;*/
+    position: absolute;
+    top: -10%;
+    transition: top .3s linear;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    padding: 1px 5px;
+}
+
+.gal:hover p {
+    top: 5%;
+}
+
+/**NOSOTROS**/
+
+/**NOSOTROS*/
+
+/**NOSOTROS*/
+
+.mitad-nosotros {
+    background: url("images/fondo-nosotros.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.contenedor-nosotros-intro {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px 0;
+}
+
+.contenedor-intro-responsive {
+    display: none;
+}
+
+.intro-nosotros p {
+    display: inline-block;
+    width: 440px;
+    text-align: center;
+    color: #fff;
+    font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 10px 0;
+    line-height: 30px;
+    letter-spacing: 5px
+}
+
+.contenedor-historia p {
+    max-width: 900px;
+    margin: 30px auto;
+    font-size: 1.2em;
+    line-height: 1.8;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 0;
+    font-family: "Merriweather", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.contenedor-historia .letra-grande::first-letter {
+    font-size: 5em;
+    margin-top: -19px;
+    line-height: 80px;
+    float: left;
+    margin-right: -2px;
+    padding: 0 5px 0 0;
+}
+
+.contenedor-historia blockquote {
+    margin: 0 auto;
+    position: relative;
+}
+
+.contenedor-historia blockquote::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 270px;
+    height: 350px;
+    top: -105px;
+    right: -100px;
+    background: url("images/pimientos.jpg") center center no-repeat;
+    background-size: contain;
+}
+
+.contenedor-historia blockquote p {
+    max-width: 1000px;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 2.7em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    transform: rotateZ(-3deg);
+}
+
+.collage {
+    /*    width: 100%;*/
+    /*    height: 100vh;*/
+    padding: 350px 0;
+    background: url("images/collage.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.collage .oscuro {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0%;
+}
+
+.collage .texto-collage {
+    width: 90%;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collage p {
+    font-size: 8em;
+    width: 700px;
+    letter-spacing: 4px;
+    line-height: 0.9;
+    font-family: "Pathway Gothic One", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 2;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.nosotros2 {
+    padding: 60px 0 30px;
+}
+
+.contenedor-nosotros2 {
+    z-index: 1;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /*    flex-direction: column;*/
+}
+
+.contenedor-nosotros2 p {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+    width: 80%;
+    font-size: 1.2em;
+    line-height: 1.8;
+    font-weight: 300;
+    font-family: "Merriweather", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.dosimagenes {
+    display: flex;
+    margin: auto;
+}
+
+.imgizquierda {
+    background: url("images/papas.jpg") center center no-repeat;
+}
+
+.imgderecha {
+    background: url("images/zanahorias.jpg") center center no-repeat;
+}
+
+.dosimagenes div {
+    display: block;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+    background-size: cover;
+}
+
+.contenedor-nosotros2 h3 {
+    max-width: 1000px;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 2.7em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    transform: rotateZ(3deg);
+    margin-bottom: 20px;
+}
+
+
+
+/*FORMULARIO CARRITO*/
+
+.form1{
+    max-width: 1200px;
+    width: 80%;
+    font-size: 16px;
+    background: transparent;
+    padding: 30px 30px 15px 30px;
+    border: none;
+    margin: 0 auto;
+}
+.form1 input[type=submit],
+.form1 input[type=button],
+.form1 input[type=text],
+.form1 input[type=tel],
+.form1 textarea,
+.form1 label
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #000000;
+
+}
+.form1 input[type=number]{
+    height: 50%;
+    width: 10%;
+    margin: auto;
+    right: 5px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    
+}
+.form1 label {
+    display:block;
+    margin-bottom: 10px;
+}
+.form1 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.form1 input[type=text],
+.form1 input[type=tel] 
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #363636;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+.form1 textarea{
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #363636;
+    width: 275px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+.form1 textarea:focus, 
+.form1 input[type=text]:focus,
+.form1 input[type=email]:focus,
+.form1 input[type=email] :focus
+{
+    border-bottom: 1px dashed #313131;
+}
+
+.form1 input[type=submit],
+.form1 input[type=button]{
+    background: #363636;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+.form1 input[type=submit]:hover,
+.form1 input[type=button]:hover{
+background: #222222;
+}
+</style>
