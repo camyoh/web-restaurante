@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+h1{
+display:none;
+}
+
 body {
     background: url("images/fondo-body.png");
 }
